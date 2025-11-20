@@ -5,9 +5,9 @@ name: language_tool_python CI
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: [ "**" ]
+    pull_request:
+    branches: [ "**" ]
 
 jobs:
   tests:
